@@ -1,0 +1,25 @@
+2026-11-07 11:01:35,443 [INFO] Starting partner API integration demo
+2026-11-07 11:01:35,444 [INFO] Searching for 'seafood restaurants' near New Orleans, LA
+2026-11-07 11:01:35,879 [ERROR] [AUTH_FAILURE] API key invalid or Places API not enabled on this project
+2026-11-07 11:01:35,883 [INFO] Searching for 'cocktail bars' near New Orleans, LA
+2026-11-07 11:01:36,223 [ERROR] [AUTH_FAILURE] API key invalid or Places API not enabled on this project
+2026-11-07 11:01:36,226 [INFO] Looking up business by phone: +15042224000
+2026-11-07 11:01:36,576 [ERROR] [AUTH_FAILURE] API key invalid or Places API not enabled on this project
+2026-11-11 23:36:44,622 [INFO] Starting partner API integration demo
+2026-11-11 23:36:44,623 [INFO] Searching for 'seafood restaurants' near New Orleans, LA
+2026-11-11 23:36:45,370 [ERROR] [AUTH_FAILURE] API key invalid or Places API not enabled on this project
+2026-11-11 23:36:45,377 [INFO] Searching for 'cocktail bars' near New Orleans, LA
+2026-11-11 23:36:46,083 [ERROR] [AUTH_FAILURE] API key invalid or Places API not enabled on this project
+2026-11-11 23:36:46,086 [INFO] Looking up business by phone: +15042224000
+2026-11-11 23:36:46,763 [ERROR] [AUTH_FAILURE] API key invalid or Places API not enabled on this project
+2026-11-11 23:40:33,970 [INFO] Starting partner API integration demo
+2026-11-11 23:40:33,971 [INFO] Searching for 'seafood restaurants' near New Orleans, LA
+2026-11-11 23:40:35,134 [INFO] [OK] places:searchText — 1151.16ms
+2026-11-11 23:40:35,275 [INFO] Found 10 results for 'seafood restaurants'
+2026-11-11 23:40:35,275 [INFO] Fetching details for place_id: ChIJe1K7iFOnIIYRa07y3MXvScg
+2026-11-11 23:40:35,896 [INFO] [OK] places — 603.93ms
+2026-11-11 23:40:35,920 [INFO] Searching for 'cocktail bars' near New Orleans, LA
+2026-11-11 23:40:36,807 [INFO] [OK] places:searchText — 861.47ms
+2026-11-11 23:40:36,939 [INFO] Found 10 results for 'cocktail bars'
+2026-11-11 23:40:36,940 [INFO] Looking up business: 'Dooky Chase's Restaurant' in New Orleans, LA
+2026-11-11 23:40:37,728 [INFO] [OK] places:searchText — 761.85ms
