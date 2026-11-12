@@ -11,17 +11,24 @@ Covers:
 - SQLite persistence for integration health monitoring
 """
 
+import os
 import requests
 import sqlite3
 import logging
 import time
-import json
 from datetime import datetime, timezone
 from pathlib import Path
 
 # ── Configuration ──────────────────────────────────────────────────────────────
 
-API_KEY = "AIzaSyAE7x8_GkAv4jNAag6X9eqoqNc7z7IICCw"
+API_KEY = os.environ.get("PLACES_API_KEY")
+if not API_KEY:
+    raise EnvironmentError(
+        "PLACES_API_KEY environment variable not set.\n"
+        "Set it before running:\n"
+        "  Windows:  set PLACES_API_KEY=your_key_here\n"
+        "  Mac/Linux: export PLACES_API_KEY=your_key_here"
+    )
 BASE_URL = "https://places.googleapis.com/v1"
 DB_PATH = Path(__file__).parent / "integration_health.db"
 

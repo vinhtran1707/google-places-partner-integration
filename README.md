@@ -56,10 +56,14 @@ Places stored in DB: 21
 pip install requests
 ```
 
-**Configuration:** Open `client.py` and set your API key:
+**Configuration:** Set your API key as an environment variable — never hardcode it in source files.
 
-```python
-API_KEY = "your_key_here"
+```bash
+# Windows
+set PLACES_API_KEY=your_key_here
+
+# Mac/Linux
+export PLACES_API_KEY=your_key_here
 ```
 
 You'll need a Google Cloud project with **Places API (New)** enabled. Create a key at [console.cloud.google.com/apis/credentials](https://console.cloud.google.com/apis/credentials).
